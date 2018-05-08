@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Manipulador de Gramática</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Manipulador de Gramática</h1>
+<h3>Trabalho I da disciplina de Linguagens Formais - 2018/1</h3>
+<h3>Feito por Érico M. Soares e Luiz F. Baldo Marques</h3>
+
+<h4>Insira dados das gramática:</h4>
+<label for="nTerm">NT:</label>
+<input id="nTerm" type="text" placeholder="Lista de NT separados por vírgula">
+<br><br>
+<label for="term">T:</label>
+<input id="term" type="text" placeholder="Lista de T separados por vírgula">
+<br><br>
+<label for="prods">P:</label>
+<textarea id="prods" rows="10" cols="40" placeholder="Produções seguindo padrão da documentação&#13;&#10;Exemplo:&#13;&#10;S -> aS|bA&#13;&#10;A -> c"></textarea>
+<br><br>
+<label for="simbIni">S:</label>
+<input id="simbIni" type="text" placeholder="Símbolo inicial">
+<br><br>
+<input id="submit" type="submit" value="Executar">
+<br>
+<div id="results"></div>
+<div id="erros"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
